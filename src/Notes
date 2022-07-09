@@ -1,0 +1,90 @@
+What is software testing?
+
+--identify the correctness and quality of the application
+
+How many ways we can actually test?
+--manual
+--automation
+
+When do we go for automation testing.
+-- after manual testing is passed
+-- when environment is stable
+--analyze out test suit and choose our automation tools
+
+What automation tools do we know about
+--Selenium
+--Cucumbers
+--TestNG
+--JUnit
+--Katalon Studio
+--TestComplete
+--UFT/QTP
+
+Level of testing;
+--Unit testing------developer
+--integration testing----QA
+--acceptance testing-------user and client
+--system testing------Mostly DevOperation
+
+Types of testing;
+--Functional testing
+--smoke regression
+--NON-functional testing
+    Performance testing----load,or stress,performance of the application in a sever load
+    Security testing--- how easy is your application to hack
+
+What is Selenium?
+--is a set of tools which helps us to automate web applications.It is mainly used to perform
+functionality testing
+
+Selenium Components;
+Selenium IDE--integrated development environment
+Selenium Grid-----Firefox plugin
+Selenium WebDriver
+Selenium RC---Remote Control
+
+What is selenium WebDriver;
+Open source automation tool which allows us to perform actions on a web applications
+WebDriver is an Interface
+
+
+Advantage of Selenium WebDriver;
+--Open source
+--works with different browser and support cross browsing testing
+--OS independent--IOS,Windows,Linux
+--works with different languages----java,rube,python;
+Disadvantage of Selenium;
+--cannot test desktop application;
+--no technical support;
+--no built in report
+--cannot test images,videos,captcha
+
+
+get() VS navigate()
+--navigate --can go go back,forward and refresh
+--get()--will wait for the page to fully load whereas navigate() will noy
+--get will not keep the history of the browser whereas navigate() will
+close()VS quit()
+--close()-close the current tab
+quit()-close the whole browser
+
+fullscreen() vs maximize()
+--maximize() --will maximize the browser and you will still be able to see the control panel
+(back,forward,)
+--fullscreen()-will maximize the whole web page
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

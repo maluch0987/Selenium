@@ -1,0 +1,116 @@
+CSS Selector(Cascading Style sheet)
+it is another way og locating elements on the web page;
+
+Sytax:
+tagname[attribute=''attribute value']
+
+CSS does not give us an opportunity to locate the elements by its text;
+Shortcuts for SCC Selector:
+Shortcuts for the class  name-->"."
+
+Syntax:
+tagName.classNameValue
+  input.button---for className locators
+
+Shortcut for IF-->"#"
+Syntax:tagname#idValue
+input#xtxPaswword--> for id locators
+
+contain()method in CSS;
+*symbol represents contain method
+tagname[attribute *='partial attribute value']
+
+starts-with method in CSS;
+^(Circumflex) symbol represent start-witch method
+tagname[attribute^='starting attribute value']
+input[aria-label^='Pass]
+
+ends-with method in CSS;
+$symbol represent ends-with method in css
+tagname[attribute $='ending attribute value']
+
+Xpath  vs  CSS
+--CSS cannot locate the elements by text wheres xpath can
+--css has shortcut
+---xpath does not have ends-with method
+--css is faster than xpath in locating elements
+--css has more simple syntax than xpath
+
+
+WebElement Commands:
+consist of several methods we can perform an action and get the element state
+on the webp[age
+isEnabled()--->boolean
+isDisplay()-->boolean
+isSelected()-->boolean
+clear()-->void
+getText()-->String
+getAttribute()-->String
+submit()-->void
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
