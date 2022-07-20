@@ -23,7 +23,7 @@ Selenium review class 02
 
 
 
-absolute xpath:
+-------------------------absolute xpath:-----------------------------------
 
 /html/head/title   -> to get the title
 
