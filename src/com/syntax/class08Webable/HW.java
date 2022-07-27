@@ -10,10 +10,10 @@ create functions (methods) to open and quit the browsers
 open method has to accept a url as a parameter
  */
 class  CommonMethods {
-    public static String URL = "https://www.facebook.com/";
+
     WebDriver driver = new ChromeDriver();
 
-    void openBrowser() {
+    void openBrowser(String URL) {
         driver.get(URL);
     }
 
@@ -27,7 +27,7 @@ class  CommonMethods {
 
             System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
 CommonMethods commonMethods=new CommonMethods();
-commonMethods.openBrowser();
+commonMethods.openBrowser("https://www.facebook.com/");
 Thread.sleep(2000);
 commonMethods.quitBrowser();
         }

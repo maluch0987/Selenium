@@ -44,7 +44,7 @@ public class HW1 {
             WebElement textBox1=driver.findElement(By.xpath("//input[@style='width: 30%;']"));
             boolean sd=textBox1.isDisplayed();
         System.out.println("text is verify: "+sd);
-
+      driver.quit();
 
     }
 }
